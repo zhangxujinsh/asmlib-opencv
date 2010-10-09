@@ -2,6 +2,8 @@
 
 asmlib-opencv can be compiled by G++, VC on Linux, Windows(both VS and mingw) and Mac OS X.
 
+If you have OpenCV 2.1 installed, simply install cmake, and then compile it with cmake.
+
 Still under construction...
 
 = Introduction =
