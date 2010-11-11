@@ -1,0 +1,23 @@
+#summary How to run the demo
+
+= Introduction =
+"test/main.cpp" is a demo. After compilation, a executable "test" or "test.exe" should be generated. You may call it like:
+{{{
+./test -pc -m ../../../data/grayall_asm.model -f -C ../../../data/haarcascade_frontalface_alt.xml
+}}}
+
+or
+{{{
+./test -m ../../../data/grayall_asm.model -v
+}}}
+
+in which:
+ *-f means fitting
+ *-v means viewing the model
+
+ *-p should be followed by the path of an image file, if given "c", it will use the webcam.
+ *-C is the path to haarcascade_frontalface_alt.xml
+ *-m is the path to a model
+ *-t asm means using asm
+
+The model files are provided in the svn repository.
