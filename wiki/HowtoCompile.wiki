@@ -1,19 +1,22 @@
-#How to compile the library in different platforms.
+#summary How to compile the library in different platforms.
 
 asmlib-opencv can be compiled by G++, VC on Linux, Windows(both VS and mingw) and Mac OS X.
 
 If you have OpenCV 2.1 installed, simply install cmake, and then compile it with cmake.
 
-Still under construction...
+= Source =
+Source code is available in the SVN repository, please go to "source" tab and check out code.
 
-= Introduction =
+= CMake =
+If you are not familiar with CMake, simply run its GUI tool (in Linux it's called `cmake-gui`). The source directory is just the "`src`" you checked out. For building directory, I would suggest you creating a "build" directory inside "src".
 
-Add your content here.
+After filling in the two directories, simply click "Configure". Then do what you do for general OpenCV projects.
 
+Options:
+  * *CMAKE_BUILD_TYPE*: You can try "Release", "Debug", "RelWithDebug"
+  * *ENABLE_ANNOTATOR*: asmlib-opencv comes with an simple annotator. If you have Qt installed, you can enable it.
 
-= Details =
+Always click "Configure" after changing any options, and click "Generate" at last. A makefile/Visual Studio project will be generated, compile it accordingly.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Run it =
+Please check [RunningDemo]
