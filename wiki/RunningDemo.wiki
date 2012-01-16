@@ -2,6 +2,8 @@
 
 After [http://code.google.com/p/asmlib-opencv/wiki/HowtoCompile compiling] the project, a demo will be ready in BUILDPATH/demo/demo
 
+If you're using Windows, a binary demo is already in [http://code.google.com/p/asmlib-opencv/downloads/list Downloads] page.
+
 = Options =
 {{{
 Arguments: 
