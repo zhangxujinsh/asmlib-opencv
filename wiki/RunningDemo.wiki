@@ -1,4 +1,5 @@
 #summary How to run the demo
+#labels Featured
 
 After [http://code.google.com/p/asmlib-opencv/wiki/HowtoCompile compiling] the project, a demo will be ready in BUILDPATH/demo/demo
 
@@ -31,7 +32,7 @@ Fitting specific options:
 == View a Model ==
 You can view models. Some models are available in the SVN repository:
 {{{
-./demo -m ../../../data/grayall_asm.model -v
+./demo -m ../../../data/muct76.model -v
 }}}
 
 You can choose a parameter and adjust it.
@@ -39,12 +40,12 @@ You can choose a parameter and adjust it.
 == Fit to an Image ==
 Fit the model to your webcam stream:
 {{{
-./demo -pc -m ../../../data/grayall_asm.model -f -C ../../../data/haarcascade_frontalface_alt.xml
+./demo -pc -m ../../../data/muct76.model -f -C ../../../data/haarcascade_frontalface_alt.xml
 }}}
 
 or 
 {{{
-./demo -m ../../../data/grayall_asm.model -f -C ../../../data/haarcascade_frontalface_alt.xml -p <PATH_TO_YOUR_IMAGE>
+./demo -m ../../../data/muct76.model -f -C ../../../data/haarcascade_frontalface_alt.xml -p <PATH_TO_YOUR_IMAGE>
 }}}
 
 == Build a Model ==
