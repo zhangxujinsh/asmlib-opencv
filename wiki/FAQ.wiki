@@ -1,5 +1,8 @@
 #summary Frequently asked questions.
 
+= Quality is bad =
+The library hasn't been updated for a long time. Please consider other libraries like stasm or others.
+
 = Why is it so slow? =
 Make sure you do the *"Release"* build. The "debug" build is slow because the heavy use of STL. It should be fast enough for real-time processing.
 
